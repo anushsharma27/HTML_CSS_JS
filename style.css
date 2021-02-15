@@ -1,0 +1,63 @@
+.body{
+	display: flex;
+	flex-direction: row;
+	background-color: red;
+}
+
+.navbar{
+   display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  margin: 10px;
+  padding: 10px;
+  background-color: aqua;
+
+}
+
+.logo img{
+margin-top:0px;
+padding:0px;
+height:60px;
+width:60px;
+margin-bottom:-10px;
+margin-left:10px;
+
+
+}
+
+.navbar a{
+	margin:10px;
+	padding:10px;
+	margin-left:10px;
+	align-content: center;
+
+}
+
+.logout{
+	margin: 10px;
+	padding: 10px;
+	text-align: right;
+	float: right;
+}
+
+.welcome{
+	display: flex;
+	flex-direction:row;
+	margin: 10px;
+  padding: 10px;
+
+}
+.welcome background{
+  background-image: url("beach.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  
+  background-size: 100% 100%;
+}
+.welcome a{
+	position: absolute;
+	background-color: red;
+	text-align: right;
+
+    
+}
