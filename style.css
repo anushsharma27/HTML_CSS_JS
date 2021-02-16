@@ -28,16 +28,16 @@ margin-left:10px;
 .navbar a{
 	margin:10px;
 	padding:10px;
-	margin-left:10px;
+	margin-left:30px;
 	align-content: center;
+	overflow: hidden;
 
 }
 
-.logout{
+.logout {	
 	margin: 10px;
 	padding: 10px;
-	text-align: right;
-	float: right;
+	margin-left:900px;
 }
 
 .welcome{
@@ -45,19 +45,103 @@ margin-left:10px;
 	flex-direction:row;
 	margin: 10px;
   padding: 10px;
+  background-color: aqua;
 
 }
-.welcome background{
+.welcome .background{
+	width: 100%;
+  height: 400px
+  padding:10px;
+  margin:10px;
+
+}
+.welcome .background img{
   background-image: url("beach.jpg");
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  width: 100%;
+  height: 400px;
+  background-size: cover;
   
-  background-size: 100% 100%;
 }
 .welcome a{
 	position: absolute;
-	background-color: red;
-	text-align: right;
+	background-color: black;
+	top: 60%;
+  left: 47%;
+  font-size: 40px;
 
-    
+}
+
+.services{
+  display: flex;
+  flex-direction: row;
+  margin:10px;
+  padding:10px;
+  background-color: aqua;
+  height:400px; 
+
+}
+
+.services a{
+	position: absolute;
+	background-color: black;
+	top: 80%;
+  left: 45.6%;
+  font-size: 40px;
+
+}
+.services .Tech{
+	position: absolute;
+	background-color: red;
+	top: 100%;
+    left: 20%;
+    width:200px;
+    height:200px;
+    text-align:center;
+    border-style: solid;
+    border-width: 5px;
+
+}
+
+.services .Dance
+{
+	position: absolute;
+	background-color: red;
+	top: 100%;
+    left: 45.5%;
+    width:200px;
+    height:200px;
+    text-align:center;
+    border-style: solid;
+    border-width: 5px;
+}
+
+.services .Cycling	
+{
+	position: absolute;
+	background-color: red;
+	top: 100%;
+    left: 70%;
+    width:200px;
+    height:200px;
+    text-align:center;
+    border-style: solid;
+    border-width: 5px;
+
+}
+
+.footer
+{ 
+  display: flex;
+  flex-direction: row;
+  margin:10px;
+  padding:10px;
+  background-color: aqua;
+  height:200px; 
+}
+
+.footer .contact
+{
+  margin:20px;
+  padding:10px;
 }
