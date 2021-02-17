@@ -1,0 +1,9 @@
+.navbar navbar-dark bg-dark a
+{
+  margin: 10px;
+  padding: 10px;
+  text-decoration: none;
+}
+.card-body{
+    height: calc(100vh - 100px);
+}
